@@ -8,4 +8,5 @@ use Classes\Router;
 $router = new Router();
 
 $router->get('/', [new SampleController(), 'index']);
+
 $router->resolve();
